@@ -1,0 +1,23 @@
+body{
+    background-color: #262626;
+    background-image: radial-gradient(
+                                        ellipse 80% 80% at 50% -20%,
+                                      rgba(120, 119, 198, 0.3),
+                                      rgba(255, 255, 255, 0)
+                                    );
+}
+
+.pagina{
+    width: 1220px;
+    height: 3000px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'avenir',sans-serif;
+    font-size: 60px;
+}
+
+/*<div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>*/
