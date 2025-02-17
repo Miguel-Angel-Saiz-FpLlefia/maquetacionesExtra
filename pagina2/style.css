@@ -1,0 +1,93 @@
+body{
+    background-color: aliceblue;
+}
+
+.pagina{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1440px;
+    height: 1272px;
+}
+
+.content{
+    width: 444px;
+    height: 473px;
+    position: relative;
+    top: 110px;
+    left: 64px;
+    float: left;
+}
+
+.content h1{
+    width: 444px;
+    height: 231px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 80px;
+    color: #252525;
+}
+
+.content p{
+    width: 386px;
+    height: 144px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.52px;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+.content button{
+    width: 157px;
+    height: 50px;
+    border-radius: 16px;
+    padding: 16px 32px;
+    gap: 10px;
+    background-color: #252525;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.imagenesFlotantes #izquierda{
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.imagenesFlotantes #derecha{
+    position: absolute;
+    padding-left: 70px;
+    top: 217px;
+}
+
+.imageCard{
+    display: flex;
+    width: 1316px;
+    height: 440px;
+    position: absolute;
+    top: 725px;
+    padding-left: 64px;
+    gap: 40px;
+}
+
+.imageCard .imagenes{
+    width: 412px;
+    height: 438.16px;
+}
+
+.imageCard .imagenes h3{
+    width: 368px;
+    height: 55px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54.64px;
+    color: rgba(37, 37, 37, 0.25);
+}
+
+.imageCard .imagenes img{
+    margin-top: -25px;
+}
