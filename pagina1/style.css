@@ -1,0 +1,72 @@
+body{
+    background-color: aliceblue;
+}
+
+.pagina{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 1139px;
+}
+
+.content{
+    width: 610px;
+    height: 355px;
+    position: relative;
+    top: 32px;
+    left: 415px;
+    padding: 24px;
+}
+
+.content h1{
+    width: 610px;
+    height: 145px;
+    font-family: 'Avenir', sans-serif;                                            
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.content p{
+    width: 607px;
+    height: 108px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.52px;
+    text-align: center;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+.content button{
+    width: 158px;
+    height: 54px;
+    border-radius: 16px;
+    padding: 16px 48px;
+    gap: 10px;
+    background-color: rgba(37, 37, 37, 1);
+    margin-left: 226px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.imageList{
+    width: 1312px;
+    height: 592px;
+    position: relative;
+    top: 84px;
+    left: 64px;
+    padding: 16px;
+}
+
+.imageList .imagenes{
+    display: flex;
+    width: 1312px;
+    height: 288px;
+    gap: 16px;
+    margin-top: 16px;
+}
